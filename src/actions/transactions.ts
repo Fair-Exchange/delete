@@ -1,7 +1,7 @@
 import { Keypair, SendOptions } from '@safecoin/web3.js';
 import { Wallet } from '../wallet';
 import { Connection } from '../Connection';
-import { Transaction } from '@metaplex-foundation/mpl-core';
+import { Transaction } from '@safecoin/lpl-core';
 
 interface ISendTransactionParams {
   connection: Connection;

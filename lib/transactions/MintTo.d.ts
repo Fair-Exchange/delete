@@ -1,6 +1,6 @@
 import { PublicKey, TransactionCtorFields } from '@safecoin/web3.js';
 import BN from 'bn.js';
-import { Transaction } from '@metaplex-foundation/mpl-core';
+import { Transaction } from '@safecoin/lpl-core';
 declare type MintToParams = {
     mint: PublicKey;
     dest: PublicKey;

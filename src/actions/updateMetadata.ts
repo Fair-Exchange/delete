@@ -4,7 +4,7 @@ import {
   Metadata,
   MetadataDataData,
   UpdateMetadata,
-} from '@metaplex-foundation/lpl-token-metadata';
+} from '@safecoin/lpl-token-metadata';
 import { sendTransaction } from './transactions';
 
 interface UpdateMetadataParams {

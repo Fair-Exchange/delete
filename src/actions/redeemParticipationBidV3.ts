@@ -12,8 +12,8 @@ import {
   Token,
   TOKEN_PROGRAM_ID,
 } from '@safecoin/safe-token';
-import { Auction, AuctionExtended, BidderMetadata } from '@metaplex-foundation/mpl-auction';
-import { Vault } from '@metaplex-foundation/mpl-token-vault';
+import { Auction, AuctionExtended, BidderMetadata } from '@safecoin/lpl-auction';
+import { Vault } from '@safecoin/mpl-token-vault';
 import {
   AuctionManager,
   NonWinningConstraint,
@@ -22,14 +22,14 @@ import {
   RedeemParticipationBidV3,
   SafetyDepositConfig,
   WinningConstraint,
-} from '@metaplex-foundation/mpl-metaplex';
+} from '@safecoin/lpl-ledamint';
 import {
   Edition,
   EditionMarker,
   MasterEdition,
   Metadata,
   UpdatePrimarySaleHappenedViaToken,
-} from '@metaplex-foundation/lpl-token-metadata';
+} from '@safecoin/lpl-token-metadata';
 
 interface IRedeemParticipationBidV3Params {
   connection: Connection;

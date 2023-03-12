@@ -48,11 +48,11 @@
     "link-mpl": "yarn link ../metaplex-program-library --private -r -A"
   },
   "dependencies": {
-    "@metaplex-foundation/mpl-auction": "^0.0.2",
-    "@metaplex-foundation/mpl-core": "^0.0.2",
-    "@metaplex-foundation/mpl-metaplex": "^0.0.5",
-    "@metaplex-foundation/lpl-token-metadata": "^1.1.0",
-    "@metaplex-foundation/mpl-token-vault": "^0.0.2",
+    "@safecoin/lpl-auction": "^0.0.2",
+    "@safecoin/lpl-core": "^0.0.2",
+    "@safecoin/lpl-ledamint": "^0.0.5",
+    "@safecoin/lpl-token-metadata": "^1.1.0",
+    "@safecoin/mpl-token-vault": "^0.0.2",
     "@safecoin/safe-token": "^0.1.8",
     "@safecoin/web3.js": "^1.30.2",
     "@types/bs58": "^4.0.1",
@@ -65,18 +65,18 @@
     "form-data": "^4.0.0"
   },
   "peerDependencies": {
-    "@metaplex-foundation/mpl-auction": "^0.0.2",
-    "@metaplex-foundation/mpl-core": "^0.0.2",
-    "@metaplex-foundation/mpl-metaplex": "^0.0.5",
-    "@metaplex-foundation/lpl-token-metadata": "^0.0.2",
-    "@metaplex-foundation/mpl-token-vault": "^0.0.2",
+    "@safecoin/lpl-auction": "^0.0.2",
+    "@safecoin/lpl-core": "^0.0.2",
+    "@safecoin/lpl-ledamint": "^0.0.5",
+    "@safecoin/lpl-token-metadata": "^0.0.2",
+    "@safecoin/mpl-token-vault": "^0.0.2",
     "@safecoin/safe-token": "^0.1.8",
     "@safecoin/web3.js": "^1.30.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.0",
     "@commitlint/config-conventional": "^13.2.0",
-    "@metaplex-foundation/amman": "^0.0.8",
+    "@safecoin/amman": "^0.0.8",
     "@rollup/plugin-commonjs": "^20.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.4",

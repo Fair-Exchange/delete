@@ -1,10 +1,10 @@
-import { Transaction } from '@metaplex-foundation/mpl-core';
+import { Transaction } from '@safecoin/lpl-core';
 import {
   Auction,
   AuctionExtended,
   CreateAuction,
   CreateAuctionArgs,
-} from '@metaplex-foundation/mpl-auction';
+} from '@safecoin/lpl-auction';
 import { PublicKey, TransactionSignature } from '@safecoin/web3.js';
 
 import { Wallet } from '../../wallet';

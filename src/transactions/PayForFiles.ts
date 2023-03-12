@@ -1,11 +1,11 @@
-import { Transaction } from '@metaplex-foundation/mpl-core';
+import { Transaction } from '@safecoin/lpl-core';
 import {
   PublicKey,
   SystemProgram,
   TransactionCtorFields,
   TransactionInstruction,
 } from '@safecoin/web3.js';
-import { config } from '@metaplex-foundation/mpl-core';
+import { config } from '@safecoin/lpl-core';
 import { Buffer } from 'buffer';
 
 type PayForFilesParams = {

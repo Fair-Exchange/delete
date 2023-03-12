@@ -3,22 +3,22 @@ import { PublicKey } from '@safecoin/web3.js';
 import { Wallet } from '../wallet';
 import { Connection } from '../Connection';
 import { sendTransaction } from './transactions';
-import { Auction, AuctionExtended, BidderMetadata } from '@metaplex-foundation/mpl-auction';
+import { Auction, AuctionExtended, BidderMetadata } from '@safecoin/lpl-auction';
 import { TransactionsBatch } from '../utils/transactions-batch';
 import {
   AuctionManager,
   PrizeTrackingTicket,
   SafetyDepositConfig,
-} from '@metaplex-foundation/mpl-metaplex';
-import { Vault } from '@metaplex-foundation/mpl-token-vault';
+} from '@safecoin/lpl-ledamint';
+import { Vault } from '@safecoin/mpl-token-vault';
 import {
   Edition,
   EditionMarker,
   MasterEdition,
   Metadata,
   UpdatePrimarySaleHappenedViaToken,
-} from '@metaplex-foundation/lpl-token-metadata';
-import { RedeemPrintingV2Bid } from '@metaplex-foundation/mpl-metaplex';
+} from '@safecoin/lpl-token-metadata';
+import { RedeemPrintingV2Bid } from '@safecoin/lpl-ledamint';
 import { prepareTokenAccountAndMintTxs } from './shared';
 import { getBidRedemptionPDA } from './redeemFullRightsTransferBid';
 

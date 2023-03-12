@@ -1,8 +1,8 @@
 import BN from 'bn.js';
-import { Transaction } from '@metaplex-foundation/mpl-core';
+import { Transaction } from '@safecoin/lpl-core';
 import { Keypair, PublicKey, TransactionSignature } from '@safecoin/web3.js';
 import { AccountLayout, Token, TOKEN_PROGRAM_ID } from '@safecoin/safe-token';
-import { ActivateVault, CombineVault, Vault } from '@metaplex-foundation/mpl-token-vault';
+import { ActivateVault, CombineVault, Vault } from '@safecoin/mpl-token-vault';
 
 import { Wallet } from '../../wallet';
 import { Connection } from '../../Connection';

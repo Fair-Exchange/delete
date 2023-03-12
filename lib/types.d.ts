@@ -1,4 +1,4 @@
-import { StringPublicKey } from '@metaplex-foundation/mpl-core';
+import { StringPublicKey } from '@safecoin/lpl-core';
 export declare type MetaDataJsonCategory = 'image' | 'video' | 'audio' | 'vr' | 'html';
 export declare type MetadataJsonAttribute = {
     trait_type: string;

@@ -1,4 +1,4 @@
-import { Transaction } from '@metaplex-foundation/mpl-core';
+import { Transaction } from '@safecoin/lpl-core';
 import { Connection, Keypair, PublicKey } from '@safecoin/web3.js';
 interface WrappedAccountTxs {
     account: Keypair;

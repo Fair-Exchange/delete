@@ -3,20 +3,20 @@ import { AccountLayout } from '@safecoin/safe-token';
 import { Wallet } from '../wallet';
 import { Connection } from '../Connection';
 import { sendTransaction } from './transactions';
-import { AuctionExtended, BidderMetadata } from '@metaplex-foundation/mpl-auction';
+import { AuctionExtended, BidderMetadata } from '@safecoin/lpl-auction';
 import { TransactionsBatch } from '../utils/transactions-batch';
 import {
   AuctionManager,
   MetaplexProgram,
   RedeemFullRightsTransferBid,
   SafetyDepositConfig,
-} from '@metaplex-foundation/mpl-metaplex';
+} from '@safecoin/lpl-ledamint';
 import { CreateTokenAccount } from '../transactions';
-import { Vault } from '@metaplex-foundation/mpl-token-vault';
+import { Vault } from '@safecoin/mpl-token-vault';
 import {
   Metadata,
   UpdatePrimarySaleHappenedViaToken,
-} from '@metaplex-foundation/lpl-token-metadata';
+} from '@safecoin/lpl-token-metadata';
 
 interface IRedeemBidParams {
   connection: Connection;

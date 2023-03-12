@@ -8,11 +8,11 @@ import {
   BidderMetadata,
   BidderPot,
   CancelBid,
-} from '@metaplex-foundation/mpl-auction';
+} from '@safecoin/lpl-auction';
 import { TransactionsBatch } from '../utils/transactions-batch';
-import { AuctionManager } from '@metaplex-foundation/mpl-metaplex';
+import { AuctionManager } from '@safecoin/lpl-ledamint';
 import { CreateTokenAccount } from '../transactions';
-import { Transaction } from '@metaplex-foundation/mpl-core';
+import { Transaction } from '@safecoin/lpl-core';
 
 interface ICancelBidParams {
   connection: Connection;

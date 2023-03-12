@@ -1,4 +1,4 @@
-import { Transaction } from '@metaplex-foundation/mpl-core';
+import { Transaction } from '@safecoin/lpl-core';
 import { AccountLayout, Token, TOKEN_PROGRAM_ID } from '@safecoin/safe-token';
 import { PublicKey, SystemProgram, TransactionCtorFields } from '@safecoin/web3.js';
 

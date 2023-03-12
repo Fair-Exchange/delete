@@ -9,8 +9,8 @@ import {
   BidderMetadata,
   BidderPot,
   PlaceBid,
-} from '@metaplex-foundation/mpl-auction';
-import { AuctionManager } from '@metaplex-foundation/mpl-metaplex';
+} from '@safecoin/lpl-auction';
+import { AuctionManager } from '@safecoin/lpl-ledamint';
 import { TransactionsBatch } from '../utils/transactions-batch';
 import { getCancelBidTransactions } from './cancelBid';
 import { CreateTokenAccount } from '../transactions';

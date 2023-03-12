@@ -3,7 +3,7 @@ import { ASSOCIATED_TOKEN_PROGRAM_ID, Token, TOKEN_PROGRAM_ID, u64 } from '@safe
 import { Wallet } from '../wallet';
 import { Connection } from '../Connection';
 import { sendTransaction } from './transactions';
-import { Account, Transaction } from '@metaplex-foundation/mpl-core';
+import { Account, Transaction } from '@safecoin/lpl-core';
 import { CreateAssociatedTokenAccount } from '../transactions/CreateAssociatedTokenAccount';
 
 interface ISendTokenParams {

@@ -4,7 +4,7 @@ import {
   Vault,
   VaultProgram,
   UpdateExternalPriceAccount,
-} from '@metaplex-foundation/mpl-token-vault';
+} from '@safecoin/mpl-token-vault';
 import {
   Keypair,
   PublicKey,
@@ -13,7 +13,7 @@ import {
   TransactionSignature,
 } from '@safecoin/web3.js';
 import { NATIVE_MINT } from '@safecoin/safe-token';
-import { Transaction } from '@metaplex-foundation/mpl-core';
+import { Transaction } from '@safecoin/lpl-core';
 
 import { Wallet } from '../../wallet';
 import { Connection } from '../../Connection';

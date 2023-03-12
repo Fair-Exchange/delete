@@ -1,5 +1,5 @@
 import { Keypair } from '@safecoin/web3.js';
-import { Transaction } from '@metaplex-foundation/mpl-core';
+import { Transaction } from '@safecoin/lpl-core';
 
 interface TransactionsBatchParams {
   beforeTransactions?: Transaction[];

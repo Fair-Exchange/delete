@@ -4,7 +4,7 @@ import {
   Vault,
   SafetyDepositBox,
   AddTokenToInactiveVault,
-} from '@metaplex-foundation/mpl-token-vault';
+} from '@safecoin/mpl-token-vault';
 import { Connection, TransactionSignature, PublicKey, Keypair } from '@safecoin/web3.js';
 
 import { Wallet } from '../wallet';

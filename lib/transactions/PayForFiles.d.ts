@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import { Transaction } from '@metaplex-foundation/mpl-core';
+import { Transaction } from '@safecoin/lpl-core';
 import { PublicKey, TransactionCtorFields } from '@safecoin/web3.js';
 import { Buffer } from 'buffer';
 declare type PayForFilesParams = {

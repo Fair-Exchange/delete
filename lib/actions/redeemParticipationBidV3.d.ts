@@ -1,7 +1,7 @@
 import { PublicKey, TransactionSignature } from '@safecoin/web3.js';
 import { Wallet } from '../wallet';
 import { Connection } from '../Connection';
-import { ParticipationConfigV2 } from '@metaplex-foundation/mpl-metaplex';
+import { ParticipationConfigV2 } from '@safecoin/lpl-ledamint';
 interface IRedeemParticipationBidV3Params {
     connection: Connection;
     wallet: Wallet;

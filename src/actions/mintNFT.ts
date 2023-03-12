@@ -8,7 +8,7 @@ import {
   MasterEdition,
   Metadata,
   MetadataDataData,
-} from '@metaplex-foundation/lpl-token-metadata';
+} from '@safecoin/lpl-token-metadata';
 import { Wallet } from '../wallet';
 import { sendTransaction } from './transactions';
 import { lookup } from '../utils/metadata';

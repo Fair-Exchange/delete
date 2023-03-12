@@ -7,8 +7,8 @@ import {
   MasterEdition,
   Metadata,
   MintNewEditionFromMasterEditionViaToken,
-} from '@metaplex-foundation/lpl-token-metadata';
-import { Account } from '@metaplex-foundation/mpl-core';
+} from '@safecoin/lpl-token-metadata';
+import { Account } from '@safecoin/lpl-core';
 import BN from 'bn.js';
 import { prepareTokenAccountAndMintTxs } from './shared';
 import { sendTransaction } from './transactions';

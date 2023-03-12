@@ -6,7 +6,7 @@ import {
   TOKEN_PROGRAM_ID,
 } from '@safecoin/safe-token';
 import { CreateAssociatedTokenAccount, CreateMint, MintTo } from '../../transactions';
-import { Transaction } from '@metaplex-foundation/mpl-core';
+import { Transaction } from '@safecoin/lpl-core';
 
 interface MintTxs {
   mint: Keypair;

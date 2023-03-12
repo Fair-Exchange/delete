@@ -1,5 +1,5 @@
 import { Connection, Keypair, PublicKey } from '@safecoin/web3.js';
-import { Transaction } from '@metaplex-foundation/mpl-core';
+import { Transaction } from '@safecoin/lpl-core';
 interface MintTxs {
     mint: Keypair;
     recipient: PublicKey;

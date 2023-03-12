@@ -1,15 +1,15 @@
 import { PublicKey, TransactionSignature } from '@safecoin/web3.js';
 import { Wallet } from '../wallet';
 import { Connection } from '../Connection';
-import { Auction, AuctionExtended } from '@metaplex-foundation/mpl-auction';
+import { Auction, AuctionExtended } from '@safecoin/lpl-auction';
 import {
   AuctionManager,
   SafetyDepositConfig,
   WinningConfigType,
-} from '@metaplex-foundation/mpl-metaplex';
+} from '@safecoin/lpl-ledamint';
 import { placeBid } from './placeBid';
 import { claimBid } from './claimBid';
-import { Vault } from '@metaplex-foundation/mpl-token-vault';
+import { Vault } from '@safecoin/mpl-token-vault';
 import { redeemFullRightsTransferBid } from './redeemFullRightsTransferBid';
 import { redeemPrintingV2Bid } from './redeemPrintingV2Bid';
 import {

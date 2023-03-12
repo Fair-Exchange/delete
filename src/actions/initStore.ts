@@ -2,7 +2,7 @@ import { PublicKey } from '@safecoin/web3.js';
 import { Wallet } from '../wallet';
 import { Connection } from '../Connection';
 import { sendTransaction } from './transactions';
-import { SetStore, Store } from '@metaplex-foundation/mpl-metaplex';
+import { SetStore, Store } from '@safecoin/lpl-ledamint';
 
 interface IInitStoreParams {
   connection: Connection;

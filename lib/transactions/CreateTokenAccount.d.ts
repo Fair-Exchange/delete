@@ -1,4 +1,4 @@
-import { Transaction } from '@metaplex-foundation/mpl-core';
+import { Transaction } from '@safecoin/lpl-core';
 import { PublicKey, TransactionCtorFields } from '@safecoin/web3.js';
 declare type CreateTokenAccountParams = {
     newAccountPubkey: PublicKey;
