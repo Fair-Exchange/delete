@@ -16,7 +16,7 @@ import { Vault } from '@metaplex-foundation/mpl-token-vault';
 import {
   Metadata,
   UpdatePrimarySaleHappenedViaToken,
-} from '@metaplex-foundation/mpl-token-metadata';
+} from '@metaplex-foundation/lpl-token-metadata';
 
 interface IRedeemBidParams {
   connection: Connection;

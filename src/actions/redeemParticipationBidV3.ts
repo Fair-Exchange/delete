@@ -29,7 +29,7 @@ import {
   MasterEdition,
   Metadata,
   UpdatePrimarySaleHappenedViaToken,
-} from '@metaplex-foundation/mpl-token-metadata';
+} from '@metaplex-foundation/lpl-token-metadata';
 
 interface IRedeemParticipationBidV3Params {
   connection: Connection;

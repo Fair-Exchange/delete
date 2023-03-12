@@ -4,7 +4,7 @@ import {
   CreateMasterEdition,
   MasterEdition,
   Metadata,
-} from '@metaplex-foundation/mpl-token-metadata';
+} from '@metaplex-foundation/lpl-token-metadata';
 import { sendTransaction } from './transactions';
 import BN from 'bn.js';
 

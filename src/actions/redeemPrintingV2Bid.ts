@@ -17,7 +17,7 @@ import {
   MasterEdition,
   Metadata,
   UpdatePrimarySaleHappenedViaToken,
-} from '@metaplex-foundation/mpl-token-metadata';
+} from '@metaplex-foundation/lpl-token-metadata';
 import { RedeemPrintingV2Bid } from '@metaplex-foundation/mpl-metaplex';
 import { prepareTokenAccountAndMintTxs } from './shared';
 import { getBidRedemptionPDA } from './redeemFullRightsTransferBid';

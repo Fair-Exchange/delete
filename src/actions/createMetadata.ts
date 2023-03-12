@@ -4,7 +4,7 @@ import {
   CreateMetadata,
   Metadata,
   MetadataDataData,
-} from '@metaplex-foundation/mpl-token-metadata';
+} from '@metaplex-foundation/lpl-token-metadata';
 import { sendTransaction } from './transactions';
 
 interface CreateMetadataParams {
