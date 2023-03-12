@@ -1,4 +1,4 @@
-import { Commitment, Connection as SolanaConnection } from '@solana/web3.js';
+import { Commitment, Connection as SolanaConnection } from '@safecoin/web3.js';
 export declare enum ChainId {
     MainnetBeta = 101,
     Testnet = 102,

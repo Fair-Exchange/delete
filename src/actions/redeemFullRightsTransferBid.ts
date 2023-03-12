@@ -1,5 +1,5 @@
-import { Keypair, PublicKey } from '@solana/web3.js';
-import { AccountLayout } from '@solana/spl-token';
+import { Keypair, PublicKey } from '@safecoin/web3.js';
+import { AccountLayout } from '@safecoin/safe-token';
 import { Wallet } from '../wallet';
 import { Connection } from '../Connection';
 import { sendTransaction } from './transactions';

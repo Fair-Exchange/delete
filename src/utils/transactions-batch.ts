@@ -1,4 +1,4 @@
-import { Keypair } from '@solana/web3.js';
+import { Keypair } from '@safecoin/web3.js';
 import { Transaction } from '@metaplex-foundation/mpl-core';
 
 interface TransactionsBatchParams {

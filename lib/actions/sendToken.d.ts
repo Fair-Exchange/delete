@@ -1,5 +1,5 @@
-import { PublicKey } from '@solana/web3.js';
-import { u64 } from '@solana/spl-token';
+import { PublicKey } from '@safecoin/web3.js';
+import { u64 } from '@safecoin/safe-token';
 import { Wallet } from '../wallet';
 import { Connection } from '../Connection';
 interface ISendTokenParams {

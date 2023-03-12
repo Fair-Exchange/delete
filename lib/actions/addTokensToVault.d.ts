@@ -1,5 +1,5 @@
 import BN from 'bn.js';
-import { Connection, TransactionSignature, PublicKey } from '@solana/web3.js';
+import { Connection, TransactionSignature, PublicKey } from '@safecoin/web3.js';
 import { Wallet } from '../wallet';
 interface Token2Add {
     tokenAccount: PublicKey;

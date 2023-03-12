@@ -1,7 +1,7 @@
-import { PublicKey } from '@solana/web3.js';
+import { PublicKey } from '@safecoin/web3.js';
 import { Wallet } from '../wallet';
 import { Connection } from '../Connection';
-import { u64 } from '@solana/spl-token';
+import { u64 } from '@safecoin/safe-token';
 interface IBurnTokenParams {
     connection: Connection;
     wallet: Wallet;

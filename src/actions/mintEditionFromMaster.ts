@@ -1,5 +1,5 @@
-import { Connection, PublicKey } from '@solana/web3.js';
-import { ASSOCIATED_TOKEN_PROGRAM_ID, Token, TOKEN_PROGRAM_ID } from '@solana/spl-token';
+import { Connection, PublicKey } from '@safecoin/web3.js';
+import { ASSOCIATED_TOKEN_PROGRAM_ID, Token, TOKEN_PROGRAM_ID } from '@safecoin/safe-token';
 import { Wallet } from '../wallet';
 import {
   Edition,

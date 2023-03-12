@@ -1,5 +1,5 @@
 import { Transaction } from '@metaplex-foundation/mpl-core';
-import { Connection, Keypair, PublicKey } from '@solana/web3.js';
+import { Connection, Keypair, PublicKey } from '@safecoin/web3.js';
 interface WrappedAccountTxs {
     account: Keypair;
     createTokenAccountTx: Transaction;

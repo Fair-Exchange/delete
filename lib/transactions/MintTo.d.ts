@@ -1,4 +1,4 @@
-import { PublicKey, TransactionCtorFields } from '@solana/web3.js';
+import { PublicKey, TransactionCtorFields } from '@safecoin/web3.js';
 import BN from 'bn.js';
 import { Transaction } from '@metaplex-foundation/mpl-core';
 declare type MintToParams = {

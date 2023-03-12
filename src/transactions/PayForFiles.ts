@@ -4,7 +4,7 @@ import {
   SystemProgram,
   TransactionCtorFields,
   TransactionInstruction,
-} from '@solana/web3.js';
+} from '@safecoin/web3.js';
 import { config } from '@metaplex-foundation/mpl-core';
 import { Buffer } from 'buffer';
 

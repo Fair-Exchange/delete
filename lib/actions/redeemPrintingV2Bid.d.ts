@@ -1,5 +1,5 @@
 import BN from 'bn.js';
-import { PublicKey } from '@solana/web3.js';
+import { PublicKey } from '@safecoin/web3.js';
 import { Wallet } from '../wallet';
 import { Connection } from '../Connection';
 import { TransactionsBatch } from '../utils/transactions-batch';

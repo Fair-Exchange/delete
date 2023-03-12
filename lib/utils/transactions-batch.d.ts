@@ -1,4 +1,4 @@
-import { Keypair } from '@solana/web3.js';
+import { Keypair } from '@safecoin/web3.js';
 import { Transaction } from '@metaplex-foundation/mpl-core';
 interface TransactionsBatchParams {
     beforeTransactions?: Transaction[];
@@ -16,6 +16,6 @@ export declare class TransactionsBatch {
     addTransaction(transaction: Transaction): void;
     addAfterTransaction(transaction: Transaction): void;
     toTransactions(): Transaction[];
-    toInstructions(): import("@solana/web3.js").TransactionInstruction[];
+    toInstructions(): import("@safecoin/web3.js").TransactionInstruction[];
 }
 export {};

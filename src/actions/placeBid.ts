@@ -1,6 +1,6 @@
 import BN from 'bn.js';
-import { Commitment, Keypair, PublicKey, TransactionSignature } from '@solana/web3.js';
-import { AccountLayout } from '@solana/spl-token';
+import { Commitment, Keypair, PublicKey, TransactionSignature } from '@safecoin/web3.js';
+import { AccountLayout } from '@safecoin/safe-token';
 import { Wallet } from '../wallet';
 import { Connection } from '../Connection';
 import { sendTransaction } from './transactions';

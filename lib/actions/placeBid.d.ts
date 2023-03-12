@@ -1,5 +1,5 @@
 import BN from 'bn.js';
-import { Commitment, PublicKey, TransactionSignature } from '@solana/web3.js';
+import { Commitment, PublicKey, TransactionSignature } from '@safecoin/web3.js';
 import { Wallet } from '../wallet';
 import { Connection } from '../Connection';
 interface IPlaceBidParams {

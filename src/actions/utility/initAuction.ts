@@ -5,7 +5,7 @@ import {
   CreateAuction,
   CreateAuctionArgs,
 } from '@metaplex-foundation/mpl-auction';
-import { PublicKey, TransactionSignature } from '@solana/web3.js';
+import { PublicKey, TransactionSignature } from '@safecoin/web3.js';
 
 import { Wallet } from '../../wallet';
 import { Connection } from '../../Connection';

@@ -1,5 +1,5 @@
 import BN from 'bn.js';
-import { PublicKey, TransactionSignature } from '@solana/web3.js';
+import { PublicKey, TransactionSignature } from '@safecoin/web3.js';
 import { Wallet } from '../wallet';
 import { Connection } from '../Connection';
 import { sendTransaction } from './transactions';
@@ -11,7 +11,7 @@ import {
   NATIVE_MINT,
   Token,
   TOKEN_PROGRAM_ID,
-} from '@solana/spl-token';
+} from '@safecoin/safe-token';
 import { Auction, AuctionExtended, BidderMetadata } from '@metaplex-foundation/mpl-auction';
 import { Vault } from '@metaplex-foundation/mpl-token-vault';
 import {
